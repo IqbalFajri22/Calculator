@@ -1,0 +1,136 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body {
+    align-items: center;
+    background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
+    display: flex;
+    font-family: 'Gemunu Libre';
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+.wrapper {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255,255, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    flex-basis: 400px;
+    height: 790px;
+    padding: 20px 35px         ;
+}
+.screen {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    font-size: 45px;
+    font-style: bold;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+    
+}
+.clac-button-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+.clac-button {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+}
+.clac-button:last-child {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #fff;
+    background: #d72880;
+
+}
+.Calculator {
+   font-family: 'Bebas Neue';
+   color: #d45e99;
+   font-size: 22px;
+   text-shadow: 0 4px 30px rgba(255, 255, 255, 0.55);
+   text-align: center;
+   padding-bottom: 15px;
+}
+.marquee {
+    padding-top: 20px;
+    font-family: 'Suranna';
+    color: #e62586;
+   font-style: normal;
+}
+.clac-button:last-child:hover {
+    background-color: inherit;
+    color: inherit;
+}
+.clac-button:hover{
+    background-color: inherit;
+}
+.clac-button:active {
+    background-color: #ffef78;
+}
+.double{
+    flex-basis: 48%;
+
+}
+.triple {
+    flex-basis: 70%;
+}
+.gambar {
+  
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.80);
+    animation: rotate 10s linear infinite;
+    
+ }
+ @keyframes rotate {
+    from {
+      transform: rotate(0deg); /* Mengatur sudut awal rotasi ke 0 derajat */
+    }
+    to {
+      transform: rotate(360deg); /* Mengatur sudut akhir rotasi ke 360 derajat (satu putaran penuh) */
+    }
+  }
+
+audio {
+  width: 190px;
+  margin-bottom: 20px;
+  margin-right: 29px;
+  padding-bottom: 20px;
+  opacity: 0.6;
+
+}
